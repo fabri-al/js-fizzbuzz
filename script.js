@@ -4,8 +4,6 @@ const replaceBuzz = "Buzz"; //creo una variabile costante
 const replaceFizzBuzz = "FizzBuzz"; //creo una variabile costante
 
 
-
-
 //Svoglimento
 // creo il ciclo for
 for (i = 0; i <= 100; i++) { //(dichiaro la variabile 'i' = 0; se 'i' è minore o uguale a 100; incrementa 'i')
@@ -31,7 +29,7 @@ for (i = 0; i <= 100; i++) { //(dichiaro la variabile 'i' = 0; se 'i' è minore 
 
     //altrimenti se è divisibile soltanto per 5
     else if (i % 5 == 0) {
-        
+
         document.getElementById("ciclo").innerHTML += `<div>${replaceBuzz}</div>`; //viene stampata un'altra stringa ancora
     }
 
